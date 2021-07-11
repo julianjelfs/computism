@@ -1,0 +1,137 @@
+body {
+  font-family: Westminster;
+}
+
+.wrapper {
+  position: relative;
+  width: 700px;
+  height: 250px;
+  overflow: hidden;
+  background-color: #ffecb4;
+  border-radius: 20px;
+}
+
+.disk {
+  position: absolute;
+  top: 40px;
+  right: 101px;
+  width: 50px;
+  height: 50px;
+}
+
+.txt {
+  font-size: 150px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  text-shadow: 3px 3px #ffffff, 6px 6px yellow, -1px -1px #ffffff;
+  color: #191919;
+}
+
+.dots {
+  top: 67px;
+  right: 319px;
+  left: unset;
+}
+
+.sub-txt {
+  font-size: 20px;
+  position: absolute;
+  color: #4a2c2a;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 1px 1px #ffecb4, 2px 2px 4px #da680f;
+  display: none;
+}
+
+.sub-txt.one {
+  bottom: 14px;
+  right: 20px;
+}
+
+.sub-txt.two {
+  top: 10px;
+  left: 20px;
+}
+
+.left,
+.right {
+  position: absolute;
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+.right.one {
+  background-color: #da680f;
+  top: 0px;
+  right: 0px;
+}
+
+.right.two {
+  background-color: #d2a146;
+  top: -20px;
+  right: 20px;
+}
+
+.right.three {
+  background-color: #e0bb82;
+  top: -40px;
+  right: 40px;
+}
+
+.right.four {
+  background-color: #9f6841;
+  top: -60px;
+  right: 60px;
+}
+
+.right.five {
+  background-color: #4a2c2a;
+  top: -80px;
+  right: 80px;
+}
+
+.right.six {
+  background-color: #ffecb4;
+  top: -100px;
+  right: 100px;
+  width: 800px;
+}
+
+.left.one {
+  background-color: #4a2c2a;
+  top: 100px;
+  left: 0px;
+}
+
+.left.two {
+  background-color: #9f6841;
+  top: 120px;
+  left: 20px;
+}
+
+.left.three {
+  background-color: #e0bb82;
+  top: 140px;
+  left: 40px;
+}
+
+.left.four {
+  background-color: #d2a146;
+  top: 160px;
+  left: 60px;
+}
+
+.left.five {
+  background-color: #da680f;
+  top: 180px;
+  left: 80px;
+}
+
+.left.six {
+  background-color: #ffecb4;
+  top: 200px;
+  left: 100px;
+  width: 800px;
+}
