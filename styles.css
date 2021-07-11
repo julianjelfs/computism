@@ -13,7 +13,9 @@ body {
 
 .disk {
   position: absolute;
-  top: 40px;
+  transition: top 300ms ease-in-out;
+  transition-delay: 200ms;
+  top: -60px;
   right: 101px;
   width: 50px;
   height: 50px;
@@ -22,6 +24,8 @@ body {
 .txt {
   font-size: 150px;
   position: absolute;
+  transition: transform 1000ms ease-in-out;
+  transform: scale(0);
   top: 40px;
   left: 40px;
   text-shadow: 3px 3px #ffffff, 6px 6px yellow, -1px -1px #ffffff;
@@ -39,19 +43,23 @@ body {
   position: absolute;
   color: #4a2c2a;
   font-weight: bold;
+  transition: opacity 1000ms ease-in-out, transform 1000ms ease-in-out;
   font-family: "Courier New", Courier, monospace;
   text-shadow: 1px 1px #ffecb4, 2px 2px 4px #da680f;
-  display: none;
+  opacity: 0;
+  transform: scale(10%), rotate(0);
 }
 
 .sub-txt.one {
   bottom: 14px;
   right: 20px;
+  transition-delay: 500ms;
 }
 
 .sub-txt.two {
   top: 10px;
   left: 20px;
+  transition-delay: 1000ms;
 }
 
 .left,
@@ -62,76 +70,76 @@ body {
   height: 200px;
 }
 
+.right {
+  right: 1000px;
+  transition: right 600ms ease-in-out;
+  transition-delay: 300ms;
+}
+
 .right.one {
   background-color: #da680f;
   top: 0px;
-  right: 0px;
 }
 
 .right.two {
   background-color: #d2a146;
   top: -20px;
-  right: 20px;
 }
 
 .right.three {
   background-color: #e0bb82;
   top: -40px;
-  right: 40px;
 }
 
 .right.four {
   background-color: #9f6841;
   top: -60px;
-  right: 60px;
 }
 
 .right.five {
   background-color: #4a2c2a;
   top: -80px;
-  right: 80px;
 }
 
 .right.six {
   background-color: #ffecb4;
   top: -100px;
-  right: 100px;
   width: 800px;
+}
+
+.left {
+  left: 1000px;
+  width: 800px;
+  transition: left 600ms ease-in-out;
 }
 
 .left.one {
   background-color: #4a2c2a;
   top: 100px;
-  left: 0px;
 }
 
 .left.two {
   background-color: #9f6841;
   top: 120px;
-  left: 20px;
 }
 
 .left.three {
   background-color: #e0bb82;
   top: 140px;
-  left: 40px;
 }
 
 .left.four {
   background-color: #d2a146;
   top: 160px;
-  left: 60px;
 }
 
 .left.five {
   background-color: #da680f;
   top: 180px;
-  left: 80px;
 }
 
 .left.six {
   background-color: #ffecb4;
   top: 200px;
-  left: 100px;
   width: 800px;
 }
