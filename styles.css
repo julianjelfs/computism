@@ -14,7 +14,7 @@ body {
 .disk {
   position: absolute;
   transition: top 300ms ease-in-out;
-  transition-delay: 200ms;
+  transition-delay: 1000ms;
   top: -60px;
   right: 101px;
   width: 50px;
@@ -59,7 +59,7 @@ body {
 .sub-txt.two {
   top: 10px;
   left: 20px;
-  transition-delay: 1000ms;
+  transition-delay: 800ms;
 }
 
 .left,

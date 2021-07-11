@@ -1,5 +1,5 @@
 const disk = document.getElementsByClassName("disk")[0];
-const txt = document.getElementsByClassName("txt")[0];
+const txt = document.getElementsByClassName("txt");
 const subtxt = document.getElementsByClassName("sub-txt");
 const left = document.getElementsByClassName("left");
 const right = document.getElementsByClassName("right");
@@ -21,5 +21,8 @@ for (let s of subtxt) {
   s.style.opacity = "100%";
 }
 
+for (let t of txt) {
+  t.style.transform = "scale(100%) rotate3d(1,1,1,720deg)";
+}
+
 disk.style.top = "40px";
-txt.style.transform = "scale(100%) rotate(720deg)";
